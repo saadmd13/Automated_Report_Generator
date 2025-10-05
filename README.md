@@ -33,7 +33,7 @@ git add .
 5. Commit your files:
 git commit -m "Initial commit: Streamlit PDF Report Generator"
 
-6 Push to GitHub:
+6. Push to GitHub:
 git branch -M main
 git remote add origin https://github.com/yourusername/Automated_Report_Generator.git
 

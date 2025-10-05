@@ -19,32 +19,31 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 
 # Sample Data
-1. Upload your own CSV/Excel file with columns:
+Upload your own CSV/Excel file with columns:
 Sales, Target, Region (optional: Product column)
 
-2. Upload to GitHub
-
-3. Initialize Git in your project folder:
+# Upload to GitHub
+1. Initialize Git in your project folder:
 git init
 
-4. Add all files:
+2. Add all files:
 git add .
 
-5. Commit your files:
+3. Commit your files:
 git commit -m "Initial commit: Streamlit PDF Report Generator"
 
-6. Push to GitHub:
+4. Push to GitHub:
 git branch -M main
 git remote add origin https://github.com/saadmd13/Automated_Report_Generator.git
-
 git push -u origin main
-
 
 # Optional: Add .gitignore
 Avoid pushing unnecessary files (like temporary PDFs, .pyc, or virtual environments):
-pycache/
+
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.db
 *.pdf
+.env

@@ -10,7 +10,7 @@ This is a Streamlit app that generates professional PDF sales reports from CSV/E
 
 # How to Run
 1. Clone the repository:
-git clone https://github.com/yourusername/Automated_Report_Generator.git
+git clone https://github.com/saadmd13/Automated_Report_Generator.git
 
 2. Install dependencies:
 pip install -r requirements.txt
@@ -35,7 +35,7 @@ git commit -m "Initial commit: Streamlit PDF Report Generator"
 
 6. Push to GitHub:
 git branch -M main
-git remote add origin https://github.com/yourusername/Automated_Report_Generator.git
+git remote add origin https://github.com/saadmd13/Automated_Report_Generator.git
 
 git push -u origin main
 
